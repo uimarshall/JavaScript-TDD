@@ -1,0 +1,25 @@
+{
+	"name": "JavaScript-TDD",
+	"version": "1.0.0",
+	"description": "This repo is for Test Driven Development In JavaScript",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --coverage"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/uimarshall/JavaScript-TDD.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/uimarshall/JavaScript-TDD/issues"
+	},
+	"homepage": "https://github.com/uimarshall/JavaScript-TDD#readme",
+	"dependencies": {
+		"axios": "^0.19.0",
+		"jest": "^24.8.0",
+		"mocha": "^6.1.4"
+	}
+}
