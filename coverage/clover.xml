@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1563375855944" clover="3.2.0">
-  <project timestamp="1563375855944" name="All files">
-    <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4" elements="15" coveredelements="13" complexity="0" loc="10" ncloc="10" packages="1" files="2" classes="2"/>
-    <file name="asyncFunction.js" path="C:\Users\COC UNILAG\Desktop\JavaScript-TDD\unitTest\asyncFunction.js">
-      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="0" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-    </file>
-    <file name="functions.js" path="C:\Users\COC UNILAG\Desktop\JavaScript-TDD\unitTest\functions.js">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-    </file>
+<coverage generated="1563462363735" clover="3.2.0">
+  <project timestamp="1563462363735" name="All files">
+    <metrics statements="24" coveredstatements="23" conditionals="5" coveredconditionals="5" methods="10" coveredmethods="9" elements="39" coveredelements="37" complexity="0" loc="24" ncloc="24" packages="2" files="3" classes="3"/>
+    <package name="integrationTest">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="intFunctions.js" path="C:\Users\COC UNILAG\Desktop\JavaScript-TDD\integrationTest\intFunctions.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="unitTest">
+      <metrics statements="14" coveredstatements="13" conditionals="5" coveredconditionals="5" methods="6" coveredmethods="5"/>
+      <file name="asyncFunction.js" path="C:\Users\COC UNILAG\Desktop\JavaScript-TDD\unitTest\asyncFunction.js">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="functions.js" path="C:\Users\COC UNILAG\Desktop\JavaScript-TDD\unitTest\functions.js">
+        <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="5" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

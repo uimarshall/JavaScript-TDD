@@ -1,4 +1,3 @@
-const axios = require("axios");
 const fetchUser = require("../unitTest/asyncFunction");
 
 // Async Await

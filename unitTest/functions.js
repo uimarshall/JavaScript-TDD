@@ -7,6 +7,13 @@ const functions = {
 	},
 	isNull: () => {
 		return null;
+	},
+	composeText: (name, age, sex) => {
+		if (name == undefined && age == undefined && sex == undefined) {
+			return undefined;
+		}
+		result = `${name} is a ${age} years old ${sex}`;
+		return result;
 	}
 };
 
