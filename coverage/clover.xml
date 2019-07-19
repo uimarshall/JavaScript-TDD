@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1563462363735" clover="3.2.0">
-  <project timestamp="1563462363735" name="All files">
-    <metrics statements="24" coveredstatements="23" conditionals="5" coveredconditionals="5" methods="10" coveredmethods="9" elements="39" coveredelements="37" complexity="0" loc="24" ncloc="24" packages="2" files="3" classes="3"/>
+<coverage generated="1563489592505" clover="3.2.0">
+  <project timestamp="1563489592506" name="All files">
+    <metrics statements="33" coveredstatements="32" conditionals="7" coveredconditionals="7" methods="13" coveredmethods="12" elements="53" coveredelements="51" complexity="0" loc="33" ncloc="33" packages="2" files="3" classes="3"/>
     <package name="integrationTest">
       <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="intFunctions.js" path="C:\Users\COC UNILAG\Desktop\JavaScript-TDD\integrationTest\intFunctions.js">
@@ -19,7 +19,7 @@
       </file>
     </package>
     <package name="unitTest">
-      <metrics statements="14" coveredstatements="13" conditionals="5" coveredconditionals="5" methods="6" coveredmethods="5"/>
+      <metrics statements="23" coveredstatements="22" conditionals="7" coveredconditionals="7" methods="9" coveredmethods="8"/>
       <file name="asyncFunction.js" path="C:\Users\COC UNILAG\Desktop\JavaScript-TDD\unitTest\asyncFunction.js">
         <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
@@ -30,7 +30,7 @@
         <line num="9" count="1" type="stmt"/>
       </file>
       <file name="functions.js" path="C:\Users\COC UNILAG\Desktop\JavaScript-TDD\unitTest\functions.js">
-        <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <metrics statements="17" coveredstatements="17" conditionals="7" coveredconditionals="7" methods="6" coveredmethods="6"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
@@ -38,7 +38,16 @@
         <line num="13" count="1" type="stmt"/>
         <line num="15" count="2" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="10" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
       </file>
     </package>
   </project>

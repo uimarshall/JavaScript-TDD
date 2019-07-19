@@ -14,6 +14,28 @@ const functions = {
 		}
 		result = `${name} is a ${age} years old ${sex}`;
 		return result;
+	},
+
+	factorsOfNum: n => {
+		var factors = [];
+		for (var i = 1; i <= n; i++) {
+			if (n / i === Math.floor(n / i)) {
+				factors.push(i);
+			}
+		}
+		return factors;
+	},
+	createUser: () => {
+		const user = { firstName: "Marshall" };
+		user["lastName"] = "Ansel";
+		return user;
+	},
+	reverseString: str => {
+		return str
+			.toLowerCase()
+			.split("")
+			.reverse()
+			.join("");
 	}
 };
 
