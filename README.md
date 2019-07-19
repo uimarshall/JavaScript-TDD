@@ -4,15 +4,17 @@ Testing is an important part of programming that can often be overlooked as many
 good tests means that your code will be reliable and less brittle as it develops, and any errors
 will be identified early on.
 
-
-![](static/example_test_result.png)
-
 ## Development
 
-- Clone this repo to your local machine using `git clone https://github.com/team-helpme/helpme`
+- Clone this repo to your local machine using `git clone https://github.com/uimarshall/JavaScript-TDD.git`
 - `cd JavaScript-TDD`
 - `npm install`
 - `npm test`
 
+## Development2 - To Test NodeJs with mocha
 
+- `cd JavaScript-TDD`
+- `cd  NodeJsTest`
+- `npm install`
+- `npm test`
 
