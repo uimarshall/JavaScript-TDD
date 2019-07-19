@@ -17,13 +17,15 @@ const functions = {
 	},
 
 	factorsOfNum: n => {
-		var factors = [];
-		for (var i = 1; i <= n; i++) {
-			if (n / i === Math.floor(n / i)) {
-				factors.push(i);
+		let factors = [];
+		for (let i = 1, max = Math.sqrt(n); i <= max; i++) {
+			if (n % i === 0) {
+				factors.push(i, n / i);
 			}
 		}
-		return factors;
+		return factors.sort((a, b) => {
+			return a > b;
+		});
 	},
 	createUser: () => {
 		const user = { firstName: "Marshall" };
