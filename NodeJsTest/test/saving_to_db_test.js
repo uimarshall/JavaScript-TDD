@@ -14,7 +14,7 @@ describe("Saving records", () => {
 			// 'isNew' returns a Boolean, if it returns true it means the data has not been saved to the db
 			// The clientone is new as at when created b4 saved to db
 			assert(clientone.isNew === false);
-			// 'done' is executed to tell mocha that the asynchronous req is complete and can nmove to the next test
+			// 'done' is executed to tell mocha that the asynchronous req is complete and can move to the next test
 			done();
 		});
 	});

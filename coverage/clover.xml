@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1563626925780" clover="3.2.0">
-  <project timestamp="1563626925780" name="All files">
+<coverage generated="1563797426884" clover="3.2.0">
+  <project timestamp="1563797426885" name="All files">
     <metrics statements="44" coveredstatements="43" conditionals="9" coveredconditionals="9" methods="17" coveredmethods="16" elements="70" coveredelements="68" complexity="0" loc="44" ncloc="44" packages="2" files="4" classes="4"/>
     <package name="integrationTest">
       <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
       <file name="intFunctions.js" path="C:\Users\COC UNILAG\Desktop\JavaScript-TDD\integrationTest\intFunctions.js">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
       </file>
       <file name="isPrime.js" path="C:\Users\COC UNILAG\Desktop\JavaScript-TDD\integrationTest\isPrime.js">
         <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>

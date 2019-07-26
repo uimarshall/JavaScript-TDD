@@ -1,5 +1,6 @@
 // All the dependencies must be correct for integration test to pass
 // Integration test is good to help us determine the dependency that is breaking our code
+
 const moe = () => {
 	return "Moe";
 };
