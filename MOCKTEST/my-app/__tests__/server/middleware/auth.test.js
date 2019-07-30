@@ -20,6 +20,7 @@ describe("The auth middleware", () => {
 	});
 
 	it("should call the next function if authentication is successful", async () => {
+		// Generate access token to pass along in the req body for this user
 		const access_token = createdUser.generateToken();
 
 		const req = {
@@ -29,6 +30,7 @@ describe("The auth middleware", () => {
 		};
 
 		const res = new Response();
+		// Mock 'next' function
 		const next = jest.fn();
 
 		await authMidleware(req, res, next);
@@ -47,7 +49,7 @@ describe("The auth middleware", () => {
 		const next = jest.fn();
 
 		await authMidleware(req, res, next);
-
+		// If a user is not authenticated or hv status 'next' mtd should not be called
 		expect(next).toHaveBeenCalledTimes(0);
 		expect(statusSpy).toHaveBeenCalledWith(401);
 		expect(jsonSpy).toHaveBeenCalledWith({

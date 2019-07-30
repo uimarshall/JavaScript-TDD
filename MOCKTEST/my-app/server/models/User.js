@@ -2,7 +2,7 @@ import config from '@config'
 import Bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 import mongoose from 'mongoose'
-import Mail from '@fullstackjs/mail'
+import Mail from '@fullstackjs/mail'//This package sends the email, we mock it out
 import randomstring from 'randomstring'
 import PasswordReset from '@models/PasswordReset'
 
